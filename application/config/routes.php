@@ -49,16 +49,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'MyCtrl/showjobs';
+$route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-$route['recruitments'] = 'MyCtrl/showjobs';
-$route['login'] = 'MyCtrl/loginview';
-$route['flogin'] = 'MyCtrl/loginvalue';
-$route['walkins'] = 'MyCtrl/showwalkins';
-$route['adduser'] = 'MyCtrl/adduser';
-$route['jobdescription'] = 'MyCtrl/descjob';
-$route['jobadd'] = 'MyCtrl/insertjob';
-$route['addjob'] = 'MyCtrl/addjob';
-$route['deljob'] = 'MyCtrl/deljob';
 
+
+//routes have been removed because of security reasons
